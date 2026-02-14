@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+}
+
+p {
+  font-size: 18px;
+  line-height: 18px;
+  text-align: justify;
+
+  background-image: url("img2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  mix-blend-mode: luminosity;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  padding: 40px;
+}
